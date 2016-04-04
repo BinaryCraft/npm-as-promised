@@ -4,12 +4,13 @@ Allows you to interact with the npm commands using es6 promises instead of callb
 
 ### Install
 
-`npm install npm-as-promised`
+`npm install npm-as-promised --save-dev`
 
 ### Usage
 
-##### npm.load
-```javscript
+npm.load and all npm.commands are now wrapped in a promise api. See below:
+
+```javascript
 npm.load(config).then(function(){
     //do cool stuff
 }).catch(function(){
@@ -18,5 +19,4 @@ npm.load(config).then(function(){
 
 ```
 
-### Example 
 
