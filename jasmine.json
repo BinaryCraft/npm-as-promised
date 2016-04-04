@@ -1,0 +1,10 @@
+{
+  "spec_dir": "test",
+  "spec_files": [
+    "**/*UnitTest.js"
+  ],
+  "helpers": [
+    "../node_modules/jasmine-es6/lib/install.js",
+    "helpers/**/*.js"
+  ]
+}
