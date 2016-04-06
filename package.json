@@ -1,6 +1,6 @@
 {
   "name": "npm-as-promised",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Turn the npm callback api into a promise api",
   "main": "dist/index.js",
   "scripts": {
