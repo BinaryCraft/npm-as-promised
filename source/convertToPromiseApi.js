@@ -11,7 +11,7 @@ function convertToPromiseApi(base, functionName) {
         let args = arguments;
         return new Promise(function(resolve, reject) {
             base[ functionName ].call(this, ...args, function(err, data) {
-                if (err === undefined) {
+                if (err !== null && err !== undefined) {
                     reject(err);
                 }
                 else {
